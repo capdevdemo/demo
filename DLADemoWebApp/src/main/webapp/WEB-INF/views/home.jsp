@@ -15,7 +15,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>CAPGEMINI GS</title>
+    <title>CAPGEMINI GOVERNMENT SOLUTION</title>
      <!-- Bootstrap core CSS -->
     <!-- Bootstrap core CSS -->
     <link href="<c:url value="/resources/css/bootstrap.min.css" />" rel="stylesheet">
