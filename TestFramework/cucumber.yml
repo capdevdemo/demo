@@ -1,0 +1,2 @@
+default: --no-source --color ARCHIVE_RESULTS=yes BROWSER=chrome  --format pretty --format html --out results.html  --format json --out reports.json
+
