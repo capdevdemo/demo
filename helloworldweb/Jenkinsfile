@@ -1,9 +1,0 @@
-node {
-      stage('SCM')
-        checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [[$class: 'SparseCheckoutPaths', sparseCheckoutPaths: [[path: 'helloworldweb']]]], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'ecc37f66-3bf4-4264-85d8-680b083f9618', url: 'git@github.com:dlademo/SampleApp.git']]])
-      stage('Build') 
-        sh 'clean package'
-      stage('deploy')
-        archiveArtifacts 'target/*.war'
-     
-}
